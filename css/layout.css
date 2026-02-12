@@ -23,4 +23,6 @@ html, body {
   overflow: hidden;
   padding-top: 14px;
 }
-.cv__col { min-width: 0; min-height: 0; overflow: hidden; }
+.cv__col { min-width: 0; min-height: 0; }
+.cv__col--center { overflow-y: auto; overflow-x: hidden; }
+.cv__col--left, .cv__col--right { overflow: hidden; }

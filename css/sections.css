@@ -85,6 +85,12 @@
   margin-bottom: 1px;
 }
 
+/* ── Keyword highlighting ────────────── */
+.kw {
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
 /* ── Selected Work ────────────────────────────── */
 .work-item {
   padding-bottom: 8px;
