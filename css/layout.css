@@ -6,9 +6,9 @@ html, body {
 .cv {
   width: 100%;
   height: 100vh;
-  max-width: 1440px;
+  max-width: 1680px;
   margin: 0 auto;
-  padding: 28px 44px 20px;
+  padding: 24px 32px 18px;
   display: grid;
   grid-template-rows: auto 1fr auto;
   gap: 0;
@@ -17,8 +17,8 @@ html, body {
 /* ── Main three-column body ──────────────────── */
 .cv__body {
   display: grid;
-  grid-template-columns: 1fr 1.6fr 1fr;
-  gap: 36px;
+  grid-template-columns: 1.1fr 1.8fr 1.1fr;
+  gap: 48px;
   min-height: 0;
   overflow: hidden;
   padding-top: 16px;
