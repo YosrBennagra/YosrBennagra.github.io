@@ -1,0 +1,31 @@
+/* ── Responsive: allow scrolling on small screens ── */
+@media (max-width: 1024px) {
+  html, body { height: auto; overflow: auto; }
+  .cv {
+    height: auto;
+    padding: 24px 20px 32px;
+    grid-template-rows: auto auto auto;
+  }
+  .cv__body {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    overflow: visible;
+  }
+  .cv__col--left { order: 1; }
+  .cv__col--center { order: 3; grid-column: 1 / -1; }
+  .cv__col--right { order: 2; }
+}
+
+@media (max-width: 640px) {
+  .cv { padding: 16px 14px 24px; }
+  .cv__body {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .cv__col--left { order: 1; }
+  .cv__col--center { order: 2; grid-column: auto; }
+  .cv__col--right { order: 3; }
+  .header { grid-template-columns: 1fr; gap: 12px; }
+  .header__links { justify-content: flex-start; }
+  .header__name { font-size: 1.4rem; }
+}

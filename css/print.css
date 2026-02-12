@@ -1,0 +1,7 @@
+/* ── Print ─────────────────────────────────────── */
+@media print {
+  html, body { height: auto; overflow: visible; }
+  body { background: #fff; }
+  .cv { padding: 16px; max-width: none; height: auto; }
+  .chip { border: 1px solid #ccc; }
+}
