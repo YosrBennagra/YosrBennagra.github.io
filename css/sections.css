@@ -1,168 +1,272 @@
 /* ── Section headings ─────────────────────────── */
-.section { margin-bottom: 12px; }
+.section {
+    margin-bottom: 12px;
+}
+
 .section__title {
-  font-size: 0.62rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: #a0aec0;
-  margin-bottom: 8px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid #e2e8f0;
+    font-size: 0.62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: #a0aec0;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #e2e8f0;
 }
 
 /* ── Profile ──────────────────────────────────── */
 .profile {
-  font-size: 0.74rem;
-  color: #2d3748;
-  line-height: 1.55;
+    font-size: 0.74rem;
+    color: #2d3748;
+    line-height: 1.55;
 }
 
 /* ── Skills chips ─────────────────────────────── */
-.skills-group { margin-bottom: 10px; }
+.skills-group {
+    margin-bottom: 10px;
+}
+
 .skills-group__label {
-  font-size: 0.6rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #718096;
-  margin-bottom: 4px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #718096;
+    margin-bottom: 4px;
 }
-.chips { display: flex; flex-wrap: wrap; gap: 3px; }
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
 .chip {
-  font-size: 0.64rem;
-  font-weight: 500;
-  padding: 2px 8px;
-  border-radius: 3px;
-  background: #edf2f7;
-  color: #2d3748;
-  white-space: nowrap;
+    font-size: 0.64rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 3px;
+    background: #edf2f7;
+    color: #2d3748;
+    white-space: nowrap;
 }
-.chip--accent { background: #1a1a2e; color: #fff; }
+
+.chip--accent {
+    background: #1a1a2e;
+    color: #fff;
+}
 
 /* ── Experience ───────────────────────────────── */
 .exp-item {
-  padding-bottom: 8px;
-  margin-bottom: 8px;
-  border-bottom: 1px solid #f0f0f5;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #f0f0f5;
 }
-.exp-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+.exp-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 .exp-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
 }
-.exp-title { font-size: 0.76rem; font-weight: 700; color: #1a1a2e; }
-.exp-company { font-size: 0.68rem; font-weight: 500; color: #4a5568; }
+
+.exp-title {
+    font-size: 0.76rem;
+    font-weight: 700;
+    color: #1a1a2e;
+}
+
+.exp-company {
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: #4a5568;
+}
+
 .exp-date {
-  font-size: 0.62rem;
-  font-family: 'JetBrains Mono', monospace;
-  color: #a0aec0;
-  white-space: nowrap;
+    font-size: 0.62rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: #a0aec0;
+    white-space: nowrap;
 }
+
 .exp-tag {
-  display: inline-block;
-  font-size: 0.56rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 1px 6px;
-  border-radius: 2px;
-  background: #ebf4ff;
-  color: #3182ce;
-  margin-top: 2px;
+    display: inline-block;
+    font-size: 0.56rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 1px 6px;
+    border-radius: 2px;
+    background: #ebf4ff;
+    color: #3182ce;
+    margin-top: 2px;
 }
+
 .exp-bullets {
-  margin-top: 3px;
-  padding-left: 12px;
-  list-style: disc;
+    margin-top: 3px;
+    padding-left: 20px;
+    list-style: disc;
 }
+
 .exp-bullets li {
-  font-size: 0.68rem;
-  color: #4a5568;
-  line-height: 1.45;
-  margin-bottom: 1px;
+    font-size: 0.68rem;
+    color: #4a5568;
+    line-height: 1.45;
+    margin-bottom: 1px;
 }
 
 /* ── Keyword highlighting ────────────── */
 .kw {
-  font-weight: 600;
-  color: #1a1a2e;
+    font-weight: 600;
+    color: #1a1a2e;
 }
 
 /* ── Selected Work ────────────────────────────── */
 .work-item {
-  padding-bottom: 8px;
-  margin-bottom: 8px;
-  border-bottom: 1px solid #f0f0f5;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #f0f0f5;
 }
-.work-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-.work-title { font-size: 0.74rem; font-weight: 700; color: #1a1a2e; }
+
+.work-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.work-title {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: #1a1a2e;
+}
+
 .work-desc {
-  font-size: 0.66rem;
-  color: #4a5568;
-  margin-top: 2px;
-  line-height: 1.45;
+    font-size: 0.66rem;
+    color: #4a5568;
+    margin-top: 2px;
+    line-height: 1.45;
 }
+
 .work-link {
-  font-size: 0.62rem;
-  font-family: 'JetBrains Mono', monospace;
-  color: #3182ce;
-  border-bottom: 1px solid #bee3f8;
-  transition: border-color 0.15s;
+    font-size: 0.62rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: #3182ce;
+    border-bottom: 1px solid #bee3f8;
+    transition: border-color 0.15s;
 }
-.work-link:hover { border-color: #3182ce; }
-.work-tags { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 4px; }
+
+.work-link:hover {
+    border-color: #3182ce;
+}
+
+.work-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-top: 4px;
+}
+
 .work-tag {
-  font-size: 0.58rem;
-  font-weight: 500;
-  padding: 1px 6px;
-  border-radius: 2px;
-  background: #f7fafc;
-  color: #718096;
-  border: 1px solid #e2e8f0;
+    font-size: 0.58rem;
+    font-weight: 500;
+    padding: 1px 6px;
+    border-radius: 2px;
+    background: #f7fafc;
+    color: #718096;
+    border: 1px solid #e2e8f0;
 }
 
 /* ── Education ────────────────────────────────── */
-.edu-degree { font-size: 0.74rem; font-weight: 700; color: #1a1a2e; }
-.edu-school { font-size: 0.66rem; color: #4a5568; margin-top: 1px; }
-.edu-date {
-  font-size: 0.62rem;
-  font-family: 'JetBrains Mono', monospace;
-  color: #a0aec0;
-  margin-top: 1px;
+.edu-degree {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: #1a1a2e;
 }
-.edu-note { font-size: 0.64rem; color: #718096; margin-top: 2px; font-style: italic; }
+
+.edu-school {
+    font-size: 0.66rem;
+    color: #4a5568;
+    margin-top: 1px;
+}
+
+.edu-date {
+    font-size: 0.62rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: #a0aec0;
+    margin-top: 1px;
+}
+
+.edu-note {
+    font-size: 0.64rem;
+    color: #718096;
+    margin-top: 2px;
+    font-style: italic;
+}
 
 /* ── Certifications ───────────────────────────── */
 .cert-item {
-  margin-bottom: 6px;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 8px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
 }
-.cert-item:last-child { margin-bottom: 0; }
-.cert-name { font-size: 0.68rem; font-weight: 600; color: #2d3748; }
-.cert-name a { border-bottom: 1px solid #cbd5e0; transition: border-color 0.15s; }
-.cert-name a:hover { border-color: #1a1a2e; }
+
+.cert-item:last-child {
+    margin-bottom: 0;
+}
+
+.cert-name {
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.cert-name a {
+    border-bottom: 1px solid #cbd5e0;
+    transition: border-color 0.15s;
+}
+
+.cert-name a:hover {
+    border-color: #1a1a2e;
+}
+
 .cert-issuer {
-  font-size: 0.6rem;
-  color: #a0aec0;
-  font-family: 'JetBrains Mono', monospace;
-  white-space: nowrap;
+    font-size: 0.6rem;
+    color: #a0aec0;
+    font-family: 'JetBrains Mono', monospace;
+    white-space: nowrap;
 }
 
 /* ── Languages ────────────────────────────────── */
-.lang-row { display: flex; gap: 8px; }
-.lang-item {
-  flex: 1;
-  text-align: center;
-  padding: 6px 4px;
-  border-radius: 4px;
-  background: #f7fafc;
-  border: 1px solid #edf2f7;
+.lang-row {
+    display: flex;
+    gap: 8px;
 }
-.lang-name { font-size: 0.68rem; font-weight: 600; color: #2d3748; }
-.lang-level { font-size: 0.58rem; color: #a0aec0; margin-top: 1px; }
+
+.lang-item {
+    flex: 1;
+    text-align: center;
+    padding: 6px 4px;
+    border-radius: 4px;
+    background: #f7fafc;
+    border: 1px solid #edf2f7;
+}
+
+.lang-name {
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.lang-level {
+    font-size: 0.58rem;
+    color: #a0aec0;
+    margin-top: 1px;
+}
