@@ -108,6 +108,13 @@
     margin-top: 2px;
 }
 
+.exp-note {
+    font-size: 0.64rem;
+    color: #718096;
+    margin-top: 2px;
+    font-style: italic;
+}
+
 .exp-bullets {
     margin-top: 3px;
     padding-left: 20px;
@@ -269,4 +276,42 @@
     font-size: 0.58rem;
     color: #a0aec0;
     margin-top: 1px;
+}
+
+/* ── Contact & CV downloads ───────────────────── */
+.contact-line {
+    font-size: 0.66rem;
+    color: #4a5568;
+    margin-top: 6px;
+    line-height: 1.5;
+}
+
+.contact-line a {
+    color: #3182ce;
+    border-bottom: 1px solid #bee3f8;
+}
+
+.contact-line a:hover {
+    border-color: #3182ce;
+}
+
+.cv-downloads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.cv-downloads a {
+    font-size: 0.64rem;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 3px;
+    background: #1a1a2e;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.cv-downloads a:hover {
+    background: #2d3748;
 }

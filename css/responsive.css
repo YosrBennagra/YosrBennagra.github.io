@@ -1,4 +1,18 @@
 /* ── Responsive: allow scrolling on small screens ── */
+/* Shorter desktops can't fit the full CV in one viewport. Scroll the page
+   instead of trapping the last projects inside a column. */
+@media (max-height: 820px) and (min-width: 1025px) {
+  html, body { height: auto; overflow: auto; }
+  .cv {
+    height: auto;
+    grid-template-rows: auto auto auto;
+  }
+  .cv__body { overflow: visible; }
+  .cv__col--center,
+  .cv__col--left,
+  .cv__col--right { overflow: visible; }
+}
+
 @media (max-width: 1024px) {
   html, body { height: auto; overflow: auto; }
   .cv {
